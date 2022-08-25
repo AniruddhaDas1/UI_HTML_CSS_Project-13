@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar + Hero */
+.nHero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #610ece;
+    color: #fff;
+}
+/* Navbar */
+header{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+header img{
+    margin-left: 5em;
+}
+.list{
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.list-items{
+    list-style-type: none;
+    padding-right: 3em;
+}
+
+.list-items:hover{
+    cursor: pointer;
+    color: #0479ff;
+}
+.btn{
+    padding: 10px 25px;
+    margin-top: -.7em;
+    background-color: #00ffff;
+    border: none;
+}
+/* Hero */
+.hero-section{
+    display: flex;
+    flex-direction: row;
+}
+.text-section{
+    width: 30vw;
+    margin-left: 5em;
+    margin-top: 7em;
+}
+.text-section h1{
+    font-size: 3.5em;
+}
+.text-section p{
+    color: #e7e0e0;
+    margin-top: 2em;
+}
+.hero-img{
+    margin-left: 9em;
+}
+/* Cards */
+.sec-02{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3em;
+}
+.sec-02-img{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.card-fea{
+    margin-left: 4em;
+    width: 25vw;
+}
+.card-fea h1{
+    font-size: 2em;
+}
+.card-fea h4{
+    font-size: 1.6em;
+    margin-top: .7em;
+    margin-left: 1.5em;
+}
+.card-fea p{
+    color: #000000;
+    margin-left: 2.5em;
+    margin-top: 10px;
+}
+/* Cards2 */
+.sec-03{
+   height: 60vh; 
+}
+.card-hd{
+    width: 25vw;
+    text-align: center;
+    margin-left: 15em;
+    margin-bottom: 1em;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    height: 50vh;
+    text-align: center;
+    margin-left: 13em;
+    
+}
+.card{
+    border: 1px solid #ffffff;
+    padding: 1em;
+    border-radius: 25px;
+    box-shadow: 10px 9px 5px #797676;
+}
+.card img{
+    border: 1px solid #000000;
+    padding: 1.5em;
+    border-radius: 100%;
+}
+.card p{
+    width: 12vw;
+}
+.text h4{
+    font-size: 1.5em;
+}
+.card-1-img{
+    background: #b86b3e;
+}
+
+
+/* Mobile Responsive */
+
+
+
+
+
+
+@media screen and (max-width:680px) {
+    /* Navbar + Hero */
+.nHero{
+    width: 100vw;
+    height: 50vh;
+    background-color: #610ece;
+    color: #fff;
+}
+/* Navbar */
+header{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+header img{
+    margin-left: 5em;
+}
+.list{
+    display: none;
+}
+.list-items{
+    list-style-type: none;
+    padding-right: 3em;
+}
+
+.list-items:hover{
+    cursor: pointer;
+    color: #0479ff;
+}
+.btn{
+    padding: 10px 25px;
+    margin-top: -.7em;
+    background-color: #00ffff;
+    border: none;
+}
+/* Hero */
+.hero-section{
+    display: flex;
+    flex-direction: row;
+}
+.text-section{
+    width: 70vw;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+.text-section h1{
+    font-size: 40px;
+}
+.text-section p{
+    color: #e7e0e0;
+    margin-top: 20px;
+}
+.hero-img{
+    display: none;
+}
+/* Cards */
+.sec-02{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+.sec-02-img{
+    margin-left: 3em;
+    margin-right: 4em;
+}
+.card-fea{
+    margin-left: 10em;
+    width: 45vw;
+    
+}
+.card-fea h1{
+    font-size: 40px;
+    width: 55vw;
+    text-align: center;
+    margin-left: -1em;
+}
+.card-fea h4{
+    font-size: 1.6em;
+    margin-top: .7em;
+    margin-left: 1.5em;
+}
+.card-fea p{
+    color: #000000;
+    margin-left: 2.5em;
+    margin-top: 10px;
+}
+/* Cards2 */
+.sec-03{
+   height: 60vh; 
+}
+.card-hd{
+    width: 55vw;
+    text-align: center;
+    margin-left: 4em;
+    margin-bottom: 1em;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    height: 50vh;
+    text-align: center;
+    margin-left: 1em;
+    
+}
+.card{
+    border: 1px solid #ffffff;
+    padding: 1em;
+    border-radius: 25px;
+    box-shadow: 10px 9px 5px #797676;
+}
+.card img{
+    border: 1px solid #000000;
+    padding: 1.5em;
+    border-radius: 100%;
+}
+.card p{
+    width: 12vw;
+}
+.text h4{
+    font-size: 1.5em;
+}
+.card-1-img{
+    background: #b86b3e;
+}
+}
